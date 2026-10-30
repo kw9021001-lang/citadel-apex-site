@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Citadel Apex Solutions">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5a4d"/>
+      <stop offset="1" stop-color="#a31c1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#06110c"/>
+  <path d="M8 52 L32 10 L56 52 Z" fill="none" stroke="url(#g)" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M19 52 L32 29 L45 52" fill="none" stroke="#d6f3e6" stroke-width="3" stroke-linejoin="round" opacity=".75"/>
+  <rect x="28" y="40" width="8" height="12" fill="#d6f3e6"/>
+  <circle cx="32" cy="10" r="3" fill="#ff5a4d"/>
+</svg>
