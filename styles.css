@@ -77,10 +77,10 @@ h3{font-size:28px;line-height:1.1}
 
 /* HERO */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:130px 0 150px;overflow:hidden;isolation:isolate;background:var(--forest)}
-.hero-media{position:absolute;inset:0 -14% 0 14%;z-index:-3;will-change:transform}
-.hero-media video{width:100%;height:100%;object-fit:cover}
+.hero-media{position:absolute;inset:0;z-index:-3;will-change:transform}
+.hero-media video{width:100%;height:100%;object-fit:cover;object-position:70% 50%}
 .hero-scrim{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,var(--forest) 0%,rgba(5,16,11,.94) 30%,rgba(5,16,11,.5) 58%,rgba(5,16,11,.1) 100%),linear-gradient(0deg,var(--forest),transparent 28%),linear-gradient(180deg,rgba(5,16,11,.7),transparent 22%)}
-.hud-ring{position:absolute;right:-6%;top:50%;width:min(62vw,760px);transform:translateY(-50%);z-index:-1;opacity:.55;pointer-events:none;will-change:transform}
+.hud-ring{position:absolute;right:-6%;top:50%;width:min(62vw,760px);transform:translateY(-50%);z-index:-1;opacity:.16;pointer-events:none;will-change:transform}
 .hud-ring circle{fill:none;stroke:var(--red3);stroke-width:1.2}
 .hud-ring .r1{stroke-dasharray:3 9;animation:spin 60s linear infinite;transform-origin:center}
 .hud-ring .r2{stroke:var(--acc);stroke-dasharray:90 18 6 18;stroke-width:2;animation:spin 40s linear infinite reverse;transform-origin:center;opacity:.7}
